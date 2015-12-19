@@ -181,7 +181,7 @@ aside {
 header {
     text-align: center;
     color: #fff;
-    background-image: url(img/roosevelt.jpg);
+    background-image: url(../img/roosevelt.jpg);
 
     height: 600px;
     background-position: 50% 50%;
