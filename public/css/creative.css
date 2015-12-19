@@ -517,6 +517,10 @@ body {
     display: inline-block;
     margin-left: 10px;
     margin-right: 10px;
+
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    transition: opacity 1s;
   }
 .circle-icon:hover{
     opacity: 0.7;
@@ -525,6 +529,10 @@ body {
   #send_email {
     background: transparent;
     border: 1px solid white;
+
+    -webkit-transition: background 1s;
+    -moz-transition: background 1s;
+    transition: background 1s;
   }
     #send_email:hover {
     background: rgba(255,255,255,0.2);
