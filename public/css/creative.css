@@ -262,19 +262,9 @@ header .header-content .header-content-inner p {
 
 .portfolio-box {
     display: block;
-    /*position: relative;*/
+    position: relative;
     margin: 0 auto;
     max-width: 650px;
-
-
-    height: 350px;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 }
 
 .portfolio-box .portfolio-box-caption {
