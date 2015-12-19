@@ -519,3 +519,8 @@ body {
     margin-right: 10px;
   }
 
+  #send_email {
+    background: transparent;
+    border: 1px solid white;
+  }
+

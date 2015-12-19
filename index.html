@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <!-- <link rel="shortcut icon" href="images/tab-icon.png"> -->
+    <link rel="shortcut icon" href="images/laptop-icon.png">
 
     <title>Jeanette Pranin | Developer</title>
 
@@ -44,7 +44,7 @@
                 from=$("#from").val();
                 subject="From " + name + " on jeanettepranin.com!";
                 text="From: " + name + " at " + from + ":\n" + $('#content').val();
-                $("#message").text("Email has been sent to "+to+". I'll get back to you soon!");
+                // $("#message").text("Email has been sent to "+to+". I'll get back to you soon!");
                 $.get("http://jeanettepranin.herokuapp.com/send",{to:to,from:from,subject:subject,text:text},function(data){
 
                     if(data.status==1){
