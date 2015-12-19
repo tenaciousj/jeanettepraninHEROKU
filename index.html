@@ -45,7 +45,7 @@
                 subject="From " + name + " on jeanettepranin.com!";
                 text="From: " + name + " at " + from + ":\n" + $('#content').val();
                 $("#message").text("Email has been sent to "+to+". I'll get back to you soon!");
-                $.get("http://jeanettepranin.com/send",{to:to,from:from,subject:subject,text:text},function(data){
+                $.get("http://jeanettepranin.herokuapp.com/send",{to:to,from:from,subject:subject,text:text},function(data){
 
                     if(data.status==1){
                         $("#message").empty().html("Email is been sent to "+to+". I'll get back to you soon!");
