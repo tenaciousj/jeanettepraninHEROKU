@@ -188,6 +188,20 @@ header {
     background-size: cover;
 }
 
+@media(max-width:600px){
+    header{
+        position: relative;
+        width: 100%;
+        min-height: auto;
+        background-position: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+    
+}
+
 .header-content {
     position: relative;
     width: 100%;
@@ -569,4 +583,18 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+@media(max-width:600px){
+    .callout{
+        position: relative;
+        width: 100%;
+        min-height: auto;
+        background-position: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+    
 }
