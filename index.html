@@ -208,7 +208,8 @@
 				$(document).ready(function(){
 		            var from, to, subject, text;
 		            $("#send_email").click(function(){
-		            	$("#thanks").css("display", "none");      
+		            	$("#thanks").css("display", "block");
+		            	    
 		                to ="jeanettepranin@gmail.com";
 		                name = $("#name").val();
 		                from = $("#email").val();
@@ -222,7 +223,7 @@
 							text: text
 		                };
 		                $.get(reqUrl,data,function(res){
-		                    $("#thanks").css("display", "block");		                    
+		                    $("#thanks").css("display", "none");  		                    
 		                });
 		            });
 		        });
