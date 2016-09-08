@@ -3031,3 +3031,60 @@
 				}
 
 	}
+
+
+
+
+
+/*OWN STYLES*/
+a {
+	border:none;
+}
+.circle-icon{
+    width: 45px;
+    height:45px;
+    border-radius:5px;
+    background-color: transparent;
+    background-size: 100%;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    -webkit-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+  }
+.circle-icon:hover{
+    opacity: 0.4;
+}
+.project_link {
+	color: green;
+}
+
+#thanks {
+	display: none;
+}
+@media screen and (min-width: 300px) and (max-width: 700px){
+    #signature {
+    	width: 250px;
+    	height: 170px;
+    }
+}
+@media screen and (min-width: 401px) and (max-width: 700px){
+    #signature {
+    	width: 350px;
+    	height: 250px;
+    }
+}
+@media screen and (min-width: 701px) and (max-width: 1000px){
+    #signature {
+    	width: 550px;
+    	height: 350px;
+    }
+}
+@media screen and (min-width: 1001px){
+    #signature {
+    	width: 800px;
+    	height: 550px;
+    }
+}
