@@ -211,10 +211,10 @@
 		            	$("#thanks").css("display", "block");
 		            	    
 		                to ="jeanettepranin@gmail.com";
-		                name = $("#name").val();
-		                from = $("#email").val();
+		                name = escapeHTML($("#name").val());
+		                from = escapeHTML($("#email").val());
 		                subject = "From " + name + " on jeanettepranin.com!";
-		                text = "From: " + name + " at " + from + ":\n" + $('#message').val();
+		                text = escapeHTML("From: " + name + " at " + from + ":\n" + $('#message').val());
 		                var reqUrl = "http://jeanettepranin.herokuapp.com/send";
 		                var data = {
 							to: to,
@@ -227,6 +227,15 @@
 		                });
 		            });
 		        });
+
+		        function escapeHTML(unsafe_str) {
+				    return unsafe_str
+				      .replace(/&/g, '&amp;')
+				      .replace(/</g, '&lt;')
+				      .replace(/>/g, '&gt;')
+				      .replace(/\"/g, '&quot;')
+				      .replace(/\'/g, '&#39;'); // '&apos;' is not valid HTML 4
+				}
 
 			</script>
 
