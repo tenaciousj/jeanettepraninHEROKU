@@ -1,454 +1,285 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<!--
+	Highlights by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Jeanette Pranin | Developer</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="/img/laptop-icon.png">
+		<style>
+			a {
+				border:none;
+			}
+			.circle-icon{
+			    width: 45px;
+			    height:45px;
+			    border-radius:5px;
+			    background-color: transparent;
+			    background-size: 100%;
+			    display: inline-block;
+			    margin-left: 10px;
+			    margin-right: 10px;
 
-    <title>Jeanette Pranin | Developer</title>
+			    -webkit-transition: opacity 0.5s;
+			    -moz-transition: opacity 0.5s;
+			    transition: opacity 0.5s;
+			  }
+			.circle-icon:hover{
+			    opacity: 0.4;
+			}
+			.project_link {
+				color: green;
+			}
+			
+			#thanks {
+				display: none;
+			}
+			@media screen and (min-width: 300px) and (max-width: 700px){
+			    #signature {
+			    	width: 250px;
+			    	height: 170px;
+			    }
+			}
+			@media screen and (min-width: 401px) and (max-width: 700px){
+			    #signature {
+			    	width: 350px;
+			    	height: 250px;
+			    }
+			}
+			@media screen and (min-width: 701px) and (max-width: 1000px){
+			    #signature {
+			    	width: 550px;
+			    	height: 350px;
+			    }
+			}
+			@media screen and (min-width: 1001px){
+			    #signature {
+			    	width: 800px;
+			    	height: 550px;
+			    }
+			}
 
-    <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+		</style>
+	</head>
+	<body>
 
-    <!-- Custom Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+		<!-- Header -->
+			<section id="header">
+				<header class="major">
+					<img id="signature" width="800" height="550" class="signature" src="Signature_White/Signature_155.png" />
+				</header>
+				<div class="container">
+					<ul class="actions">
+						<li><a href="#one" class="button special scrolly">Find Out More</a></li>
+					</ul>
+				</div>
+			</section>
 
-    <!-- Plugin CSS -->
-    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+		<!-- One -->
+			<section id="one" class="main special">
+				<div class="container">
+					<span class="image fit primary"><img src="images/background/pic01.jpg" alt="" /></span>
+					<div class="content">
+						<header class="major">
+							<h2>Who I am</h2>
+						</header>
+						<p>Hey there! My name is Jeanette and I'm currently pursuing my degree in Computer Science at Northwestern University (no, not the school in Boston). I go to hackathons often and enjoy learning new frameworks and building web apps.</p>
+						<p>Here are some of the companies I've worked for.</p>
+						<ul class="icons-grid">
+							<li style="box-shadow:none">
+								<h3>Zappos</h3>
+								<span>Front End Development Intern</span>
+							</li>
+							<li style="box-shadow:none">
+								<h3>Northwestern</h3>
+								<span>Teaching Assistant</span>
+							</li>
+							<li style="box-shadow:none">
+								<h3>Alcatel Lucent</h3>
+								<span>Software Development Intern</span>
+							</li>
+							<li style="box-shadow:none">
+								<h3>I Drink Sant</h3>
+								<span>Business Development Intern</span>
+							</li>
+						</ul>
+						<p>In my spare time, I love eating candy from novelty shops, petting neighborhood dogs, and watching reality TV show marathons.</p>
+					</div>
+					<a href="#two" class="goto-next scrolly">Next</a>
+				</div>
+			</section>
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/creative.css" type="text/css">
+		<!-- Two -->
+			<section id="two" class="main special">
+				<div class="container">
+					<span class="image fit primary"><img src="images/background/pic02.jpg" alt="" /></span>
+					<div class="content">
+						<header class="major">
+							<h2>Stuff I Know</h2>
+						</header>
+						<ul class="icons-grid">
+							<li>
+								<span><img src="images/skills/js.png" /></span>
+								<h3>JavaScript</h3>
+							</li>
+							<li>
+								<span><img src="images/skills/python.png" /></span>
+								<h3>Python</h3>
+							</li>
+							<li>
+								<span><img src="images/skills/html.png" /></span> +
+								<span><img src="images/skills/css.png" /></span>
+								<h3>HTML + CSS</h3>
+							</li>
+							<li>
+								<span><img src="images/skills/react.png" /></span> +
+								<span><img src="images/skills/redux.png" /></span>
+								<h3>React + Redux</h3>
+							</li>
+							<li>
+								<span><img src="images/skills/asp.png" /></span> +
+								<span><img src="images/skills/visual_studio.png" /></span>
+								<h3>.NET/C# + Vis Studio</h3>
+							</li>
+							<li>
+								<span><img src="images/skills/java.png" /></span>
+								<h3>Java</h3>
+							</li>
+							<p>and more!</p>
+						</ul>
+					</div>
+					<a href="#three" class="goto-next scrolly">Next</a>
+				</div>
+			</section>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+		<!-- Three -->
+			<section id="three" class="main special">
+				<div class="container">
+					<span class="image fit primary"><img src="images/background/pic03.jpg" alt="" /></span>
+					<div class="content">
+						<header class="major">
+							<h2>Things I've Made</h2>
+						</header>
+						<p>
+							<a href="http://6pm.com" class="project_link"><h3>My Account for 6pm Mobile</h3></a>
+							Use React and Redux to create the mobile My Account page for Zappos’s discount site, 6pm.com.
+						</p>
+						<hr />
+						<p>
+							<a href="AbacusProject.pdf" class="project_link"><h3>The Abacus Project</h3></a>
+							A museum exhibit prototype that teaches users about the abacus and its history. Uses Angular.js, Pusher, and OpenCV’s Python SDK.
+						</p>
+						<hr />
+						<p>
+							<a href="http://twitterrx.herokuapp.com" class="project_link"><h3>TwitterRx</h3></a>
+							A Python/Flask app that uses text-processing and D3.js to visualize the positivity of one's tweets.
+						</p>
+						<hr />
+						<p>
+							<a href="http://devpost.com/software/pennapps-hack" class="project_link"><h3>Formfor.me</h3></a>
+							A Python/Flask app on Microsoft Azure that makes government forms more accessible.Winner of Best Civic Hack at Pennapps XII.
+						</p>
+						<hr />
+						<p>
+							<a href="http://devpost.com/software/buzzkill-yaj2q" class="project_link"><h3>BuzzKill</h3></a>
+							A Pebble Classic app that monitors and encourages productivity with an incessant timer.
+						</p>
+					</div>
+					<a href="#footer" class="goto-next scrolly">Next</a>
+				</div>
+			</section>
 
-    <script>
-        $(document).ready(function(){
-            var from,to,subject,text;
-            $("#send_email").click(function(){      
-                to="jeanettepranin@gmail.com";
-                name=$("#name").val();
-                from=$("#from").val();
-                subject="From " + name + " on jeanettepranin.com!";
-                text="From: " + name + " at " + from + ":\n" + $('#content').val();
-                $("#message").text("Thanks!");
-                $.get("http://jeanettepranin.herokuapp.com/send",{to:to,from:from,subject:subject,text:text},function(data){
-
-                    if(data.status==1){
-                        $("#message").empty().html("Email is been sent to "+to+". I'll get back to you soon!");
-                    }
-                    
-                });
-            });
-        });
-    </script>
-    <style>
-     .input-group{
-        width:60%;
-     }
-    </style>
-
-
-</head>
-
-<body id="page-top">
-
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Jeanette Pranin</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" href="#about">About Me</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#experience">Experience</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#projects">Projects</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-    <header>
-        <div class="header-content">
-            <div class="header-content-inner">
-                <h1>Jeanette Pranin</h1>
-                <hr>
-                <p style="color:rgba(255,255,255,.8);">Developer. Hackathon enthusiast.<br>Having fun in the Windy City.</p>
-                
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
-            </div>
-        </div>
-    </header>
-
-    <section class="bg-primary" id="about" style="padding: 40px 0">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <div class="circle-portrait" style="background-image:url(/img/self-portrait.png);"></div><br>
-                    <h2 class="section-heading">Hi there!</h2>
-                    <hr class="light">
-                    <p class="text-faded">Thanks for stopping by! My name is Jeanette and I study Computer Science at Northwestern University. Here are some important facts about me.</p>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-md-4 col-sm-4">
-                    <span style="font-size:3em" class="wow bounceIn">7</span><br>
-                    Number of Hackathons Attended
-                </div>
-                <div class="col-md-4 col-sm-4">
-                    <span style="font-size:3em" class="wow bounceIn">4</span><br>
-                    Computer Science Awards Won
-                </div>
-                <div class="col-md-4 col-sm-4">
-                    <span style="font-size:3em" class="wow bounceIn">2</span><br>
-                    Summer Internships Completed
-                </div>
-            </div>
-            <br>
-            <div class="row text-center">
-                <div class="col-md-2 col-sm-4 col-xs-4">
-                    Python<br>
-                    <i style="color:white" class="fa fa-circle wow bounceIn text-faded"></i>
-                    <i style="color:white" class="fa fa-circle wow bounceIn text-faded"></i>
-                    <i style="color:white" class="fa fa-circle wow bounceIn text-faded"></i>
-                    <i style="color:white" class="fa fa-circle wow bounceIn text-faded"></i>
-                    <i style="color:white" class="fa fa-circle-o wow bounceIn text-faded"></i>
-                </div>
-                <div class="col-md-2 col-sm-4 col-xs-4">
-                    C#<br>
-                    <i style="color:white" class="fa fa-circle wow bounceIn text-faded"></i>
-                    <i style="color:white" class="fa fa-circle wow bounceIn text-faded"></i>
-                    <i style="color:white" class="fa fa-circle wow bounceIn text-faded"></i>
-                    <i style="color:white" class="fa fa-circle wow bounceIn text-faded"></i>
-                    <i style="color:white" class="fa fa-circle-o wow bounceIn text-faded"></i>
-                </div>
-                <div class="col-md-2 col-sm-4 col-xs-4">
-                    HTML/CSS<br>
-                    <i style="color:white" class="fa fa-circle wow bounceIn text-faded"></i>
-                    <i style="color:white" class="fa fa-circle wow bounceIn text-faded"></i>
-                    <i style="color:white" class="fa fa-circle wow bounceIn text-faded"></i>
-                    <i style="color:white" class="fa fa-circle wow bounceIn text-faded"></i>
-                    <i style="color:white" class="fa fa-circle-o wow bounceIn text-faded"></i>
-                </div>
-                <div class="col-md-2 col-sm-4 col-xs-4">
-                    JavaScript<br>
-                    <i style="color:white" class="fa fa-circle wow bounceIn text-faded"></i>
-                    <i style="color:white" class="fa fa-circle wow bounceIn text-faded"></i>
-                    <i style="color:white" class="fa fa-circle wow bounceIn text-faded"></i>
-                    <i style="color:white" class="fa fa-circle-o wow bounceIn text-faded"></i>
-                    <i style="color:white" class="fa fa-circle-o wow bounceIn text-faded"></i>
-                </div>
-                <div class="col-md-2 col-sm-4 col-xs-4">
-                    C/++<br>
-                    <i style="color:white" class="fa fa-circle wow bounceIn text-faded"></i>
-                    <i style="color:white" class="fa fa-circle wow bounceIn text-faded"></i>
-                    <i style="color:white" class="fa fa-circle-o wow bounceIn text-faded"></i>
-                    <i style="color:white" class="fa fa-circle-o wow bounceIn text-faded"></i>
-                    <i style="color:white" class="fa fa-circle-o wow bounceIn text-faded"></i>
-                </div>
-                <div class="col-md-2 col-sm-4 col-xs-4">
-                    SQL<br>
-                    <i style="color:white" class="fa fa-circle wow bounceIn text-faded"></i>
-                    <i style="color:white" class="fa fa-circle wow bounceIn text-faded"></i>
-                    <i style="color:white" class="fa fa-circle-o wow bounceIn text-faded"></i>
-                    <i style="color:white" class="fa fa-circle-o wow bounceIn text-faded"></i>
-                    <i style="color:white" class="fa fa-circle-o wow bounceIn text-faded"></i>
-                </div>
-            </div>
-            <br>
-            <div class="row text-center">
-                <div class="col-md-3 col-xs-6">
-                    <i style="color:white" class="fa fa-4x fa-code wow bounceIn text-faded"></i><br>
-                    Coding
-                </div>
-                <div class="col-md-3 col-xs-6">
-                    <i style="color:white" class="fa fa-4x fa-fire wow bounceIn text-faded"></i><br>
-                    Dancing
-                </div>
-                <div class="col-md-3 col-xs-6">
-                    <i style="color:white" class="fa fa-4x fa-road wow bounceIn text-faded"></i><br>
-                    Traveling
-                </div>
-                <div class="col-md-3 col-xs-6">
-                    <i style="color:white" class="fa fa-4x fa-camera-retro wow bounceIn text-faded"></i><br>
-                    Photography
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="experience">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Work Experience</h2>
-                    <hr class="primary">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box wow bounceIn">
-                        <h3>Mobile Front-End Development Intern *Upcoming*</h3>
-                        <p class="text-muted">Zappos Inc.</p>
-                        <p class="text-muted">Summer 2016</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box wow bounceIn">
-                        <h3>EECS Teaching Assistant</h3>
-                        <p class="text-muted">EECS 110 and EECS 330</p>
-                        <p class="text-muted">Northwestern University</p>
-                        <p class="text-muted">Winter 2015, 2016</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box wow bounceIn">
-                        <h3>Software Development Intern</h3>
-                        <p class="text-muted">Alcatel-Lucent</p>
-                        <p class="text-muted">Summer 2015</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box wow bounceIn">
-                        <h3>Business Development Intern</h3>
-                        <p class="text-muted">Sant</p>
-                        <p class="text-muted">Summer 2014</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Callout -->
-    <aside class="callout">
-        <div class="header-content">
-            <div class="header-content-inner">
-                <h1>Projects</h1>
-            </div>
-        </div>
-    </aside>
-
-    <section class="no-padding" id="projects">
-
-        <div class="container-fluid">
-            <div class="row no-gutter">
-                <div class="col-lg-4 col-sm-6">
-                    <a href="http://twitterrx.herokuapp.com" class="portfolio-box">
-                        <img src="img/portfolio/twitterrx.png" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-name">
-                                    TwitterRx
-                                </div>
-                                <div class="project-category text-faded">
-                                    A Python/Flask app that uses text-processing and D3.js to visualize the positivity of one's tweets.
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="http://formfor.me" class="portfolio-box">
-                        <img src="img/portfolio/formforme.png" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-name">
-                                    Formfor.me
-                                </div>
-                                <div class="project-category text-faded">
-                                    A Python/Flask app on Microsoft Azure that makes government forms more accessible.<br>(Winner of Best Civic Hack at Pennapps XII)
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="http://travelbot2.herokuapp.com" class="portfolio-box">
-                        <img src="img/portfolio/travelbot.png" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-name">
-                                    TravelBot
-                                </div>
-                                <div class="project-category text-faded">
-                                    A MEAN stack web app that creates a customized travel itinerary for the city of Chicago based on user feedback.
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="http://nxrlab.github.io/gibbot/" class="portfolio-box">
-                        <img src="img/portfolio/gibbot.png" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-name">
-                                    The Gibbot Project
-                                </div>
-                                <div class="project-category text-faded">
-                                    A GUI written in Java for the Gibbot Project by the Neuroscience and Robotics Lab (NxR Lab) at Northwestern University.
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="http://devpost.com/software/buzzkill-yaj2q" class="portfolio-box">
-                        <img src="img/portfolio/buzzkill.png" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-name">
-                                    BuzzKill
-                                </div>
-                                <div class="project-category text-faded">
-                                    A Pebble Classic app that monitors and encourages productivity with an incessant timer.
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="http://devpost.com/software/heartflash" class="portfolio-box">
-                        <img src="img/portfolio/heartflash.png" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-name">
-                                    HeartFlash
-                                </div>
-                                <div class="project-category text-faded">
-                                    An iPhone app that calculates BPM with the iPhone flashlight and suggests exercises based on BPM and age.
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-    <section class="bg-primary" id="contact">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2 class="section-heading">I'd love to hear from you!</h2>
-                    <hr class="primary">
-                    <p>Check out my work at the links below or shoot me an email using the contact form.</p>
-                </div>
-                <div class="col-lg-12">
-                    <ul class="list-inline">
-                        <li>
-                            <a href="http://www.linkedin.com/in/jeanettepranin" title="LinkedIn"><div class="circle-icon" style="background-image: url(img/linkedin.png)"></div></a>
-                            <!-- <a href="http://www.github.com/tenaciousj"><i class="fa fa-github-square fa-fw fa-3x"></i></a> -->
+		
+		<!-- Footer -->
+			<section id="footer">
+				<div class="container">
+					<header class="major">
+						<h2>Get in touch</h2>
+					</header>
+					<form method="post" action="#">
+						<div class="row uniform">
+							<div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
+							<div class="6u$ 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
+							<div class="12u$"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+							<div class="12u$">
+								<ul class="actions">
+									<li><input id="send_email" type="submit" value="Send Message" class="special" /></li>
+								</ul>
+								<p id="thanks">Thanks for your email! I'll get back to you soon.</p>
+							</div>
+						</div>
+					</form>
+				</div>
+				<footer>
+					<ul class="icons">
+						<li>
+                            <a href="http://www.linkedin.com/in/jeanettepranin" title="LinkedIn"><div class="circle-icon" style="background-image: url(images/contact/linkedin.png)"></div></a>
                         </li>
                         <li>
-                            <a href="http://github.com/tenaciousj" title="GitHub"><div class="circle-icon" style="background-image: url(img/github.png)"></div></a>
-                            <!-- <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a> -->
+                            <a href="http://github.com/tenaciousj" title="GitHub"><div class="circle-icon" style="background-image: url(images/contact/github.png)"></div></a>
                         </li>
                         <li>
-                            <a href="http://devpost.com/jeanettepranin" title="DevPost"><div class="circle-icon" style="background-image: url(img/devpost.png)"></div></a>
-                            <!-- <a href="http://www.linkedin.com/in/jeanettepranin"><i class="fa fa-linkedin-square fa-fw fa-3x"></i></a> -->
+                            <a href="http://devpost.com/jeanettepranin" title="DevPost"><div class="circle-icon" style="background-image: url(images/contact/devpost.png)"></div></a>
                         </li>
                         <li>
-                            <a href="JeanettePranin_Resume.pdf" title="Resume"><div class="circle-icon" style="background-image: url(img/resume-icon.png)"></div></a>
+                            <a href="JeanettePranin_Resume.pdf" title="Resume"><div class="circle-icon" style="background-image: url(images/contact/resume-icon.png)"></div></a>
                         </li>
-                    </ul>
-                </div>
-                <br>
-                <div class="row">
-                    <center>
-                    <form role="form">
-                        <div class="col-md-12">
-                            <div class="form-group">
-                                <label id="InputName">Your name</label>
-                                <div class="input-group">
-                                    <input type="text" class="form-control" name="InputName" id="name" placeholder="Enter your name" required/>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="form-group">
-                                <label id="from-email">Your email</label>
-                                <div class="input-group">
-                                    <input type="text" class="form-control" name="from-email" id="from" placeholder="Enter your email" required/>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="form-group">
-                                <label id="message">Your message</label>
-                                <div class="input-group">
-                                    <textarea type="text" class="form-control" name="message" rows="5" id="content" placeholder="Enter your message" required></textarea>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="form-group">
-                                <div class="input-group">
-                                    <button type="button" class="btn btn-info btn-lg" id="send_email">Send Email</button>
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </form>
-                </div>
-                <p><span id="message"></span></p>
-                </center>
-            </div>
-        </div>
-    </section>
+					</ul>
+				</footer>
+			</section>
 
-    
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+			<!--Flipbook-->
+			<script src="jquery.flipbook.js"></script>
+			<script>
+				//jQuery        
+				$('img.signature').flipbook({
+				    'start': 15,
+				    'end': 155,
+				    'loop': false,
+				    'fps': 15,
+				    'mobileStep': 1,
+				    'images': 'Signature_White/Signature_%d.png'
+				    //'images': 'Signature/Signature_%d.jpg'
+				});
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+				$(document).ready(function(){
+		            var from, to, subject, text;
+		            $("#send_email").click(function(){
+		            	debugger;
+		            	$("#thanks").css("display", "none");      
+		                to="jeanettepranin@gmail.com";
+		                name=$("#name").val();
+		                from=$("#email").val();
+		                subject="From " + name + " on jeanettepranin.com!";
+		                text="From: " + name + " at " + from + ":\n" + $('#message').val();
+		                $.get("http://jeanettepranin.herokuapp.com/send",{to:to,from:from,subject:subject,text:text},function(data){
 
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/jquery.fittext.js"></script>
-    <script src="js/wow.min.js"></script>
+		                    if(data.status==1){
+		                    	$("#thanks").css("display", "block");
+		                    }
+		                    
+		                });
+		            });
+		        });
 
-    <!-- Custom Theme JavaScript -->
-    <script src="js/creative.js"></script>
+			</script>
 
-</body>
-
+	</body>
 </html>
