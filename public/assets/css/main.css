@@ -3064,10 +3064,12 @@ a {
 #thanks {
 	display: none;
 }
-@media screen and (min-width: 300px) and (max-width: 700px){
+@media screen and (min-width: 300px) and (max-width: 401px){
     #signature {
     	width: 250px;
-    	height: 170px;
+    }
+    #logo {
+    	width: 200px;
     }
 }
 @media screen and (min-width: 401px) and (max-width: 700px){
@@ -3075,16 +3077,27 @@ a {
     	width: 350px;
     	height: 250px;
     }
+    #logo {
+    	width: 250px;
+    }
 }
 @media screen and (min-width: 701px) and (max-width: 1000px){
     #signature {
     	width: 550px;
     	height: 350px;
     }
+    #logo {
+    	width: 350px;
+    }
 }
 @media screen and (min-width: 1001px){
     #signature {
     	width: 800px;
     	height: 550px;
+    	margin-top:-200px;
+    	margin-bottom: -200px;
+    }
+    #logo {
+    	width: 450px;
     }
 }
