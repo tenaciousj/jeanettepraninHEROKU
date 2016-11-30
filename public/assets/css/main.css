@@ -3059,6 +3059,10 @@ a {
 }
 .project_link {
 	color: green;
+	text-shadow: 1px 1px 2px #999999;
+}
+.project_link:hover{
+	text-shadow: none;
 }
 
 #thanks {
